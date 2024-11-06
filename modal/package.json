@@ -1,0 +1,40 @@
+{
+  "name": "react-modal-bizwi",
+  "version": "0.1.0",
+  "description": "A reusable modal component in React",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9"
+  },
+  "keywords": [
+    "react",
+    "modal",
+    "component"
+  ],
+  "author": "Bizien William",
+  "license": "OC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElMoucheh"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "sass": "^1.80.5"
+  }
+}
