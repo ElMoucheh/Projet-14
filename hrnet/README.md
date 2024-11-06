@@ -9,7 +9,7 @@ This React project is an internal employee management system for WealthHealth.
 1. Clone the repository:
    ```bash
    git clone https://github.com/ElMoucheh/Projet-14.git
-   cd your-repo
+   cd Projet-14/hrnet
    ```
 
 2. Install dependencies:
