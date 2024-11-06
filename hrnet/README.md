@@ -27,7 +27,6 @@ Then, open http://localhost:3000 in your browser.
 
 ### Building for Production
 To create an optimized production build:
-
     ```bash
     npm run build
     ```
