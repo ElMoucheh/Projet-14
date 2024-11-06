@@ -1,0 +1,84 @@
+.create-employee-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #F5FFFA;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  h1, h2 {
+    text-align: center;
+    color: #2E8B57;
+  }
+
+  a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #006400;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #66CDAA;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    label {
+      color: #006400;
+      font-weight: bold;
+    }
+
+    input, select, .react-datepicker-wrapper input {
+      padding: 10px;
+      font-size: 1em;
+      width: 100%;
+      border: 1px solid #2F4F4F;
+      border-radius: 4px;
+      background-color: #F5FFFA;
+      color: #2F4F4F;
+      transition: border-color 0.3s ease;
+
+      &:focus {
+        border-color: #2E8B57;
+        outline: none;
+      }
+    }
+
+    .address-fieldset{
+      padding: 5px;
+      border-color: #2E8B57;
+      border-radius: 5px;
+    }
+
+    .date-picker {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        margin-bottom: 5px;
+      }
+    }
+
+    button {
+      background-color: #2E8B57;
+      color: #F5FFFA;
+      padding: 10px;
+      font-size: 1em;
+      font-weight: bold;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #66CDAA;
+      }
+    }
+  }
+}
