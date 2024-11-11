@@ -87,7 +87,7 @@ Jade vous envoie quelques détails supplémentaires :
 >
 > Aussi, fais-moi savoir quand tout est fait et nous ferons une révision du code pour répondre aux commentaires restants.
 >
-> J'ai hâte de voir ce que tu vas faire !
+> J'ai hâte de voir ce que tu vas faire !  
 > **Jade**
 
 Ça y est, vous avez toutes les informations dont vous avez besoin. Maintenant, le plus dur sera de choisir quel plugin jQuery convertir !
