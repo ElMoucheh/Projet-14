@@ -1,0 +1,3 @@
+[submodule "react-modal-bizwi"]
+	path = react-modal-bizwi
+	url = git@github.com:ElMoucheh/react-modal-bizwi.git
